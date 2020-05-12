@@ -140,7 +140,6 @@ if ($permissions['ispermitted'] != REJECTED_USER /* not rejected */
 			echo "Your access request is pending approval by an administrator. Please ask your admin to approve / deny your request";
 			}
 		else if ($permissions['ispermitted'] == AUTHORIZED_USER || $permissions['isadmin'] == ADMIN_USER) {
-			// We only have the one "unlock" at present with unlock.php automatically firing the unlock mechanism, but this can easily be modified in future for further expansion / multiple doors
 			// This could probably be done on this page itself, but I have a feeling that making it a new page will be better for extensibility in-future
 			$action_allowed = true;
 			}

@@ -8,9 +8,9 @@ It can easily be modified to expand upon the base layer for the purposes of a ho
 
 Installation
 ============
-* Create a MySQL database, import struct.sql into it ( mysql -u digibyte -p digikey < ./struct.sql )
+* Create a MySQL database. It will configure the structure when you first log in, or alternatively you can import struct.sql into it ( mysql -u username -p covid19checkin < ./struct.sql )
 * Configure database information and server url in config.php
-* After the first user has signed up with their Digi-ID, navigate to /admin.php on that same device and your Digi-ID will be elevated to becoming an Admin user, allowing you to approve / deny other permission requests
+* After the first user has signed up with their Digi-ID, they will automatically be elevated to the primary administrative user, allowing you to add / remove other users and run reports
 
 Notes
 =====
