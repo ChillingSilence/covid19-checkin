@@ -109,12 +109,12 @@ if(!$result)
 					<div class="bigscreen-padding hidden-xs"></div>
 					<form id="regform" action="<?= DIGIID_SERVER_URL ?>register.php" method="post">
 					<span class="login-form-title" style="padding-bottom: 42px;">
-						Fill the form:
+						Please enter your details:
 					</span>
 					<div class="wrap-input100">
 						<input class="input100" type="text" name="fio" required="true">
 						<span class="focus-input100"></span>
-						<span class="label-input100">Your name</span>
+						<span class="label-input100">Cellphone number</span>
 					</div>
 					<div class="container-login-form-btn">
 						<input type="submit" class="login-form-btn main" value="Register" />
@@ -131,7 +131,7 @@ if(!$result)
 			</div>
 		</div>
 	</div>
-	<div id="source-link"><a href="https://github.com/ChillingSilence/digiid-php-authdemo" title="Download it in open source"><img src="images/open-source-code.png" /></a>
+	<div id="source-link"><a href="https://github.com/ChillingSilence/covid19-checkin" title="Download it in open source"><img src="images/open-source-code.png" /></a>
 	</div>
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
