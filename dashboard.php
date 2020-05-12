@@ -153,8 +153,8 @@ if ($permissions['ispermitted'] != REJECTED_USER /* not rejected */
 	// Show the Authorized User stuff, like a button to open a door etc
 		if ($action_allowed) {
 		echo <<<HTML
-		<p class="lead">Congratulations, you are authorized to access.<br />
-		<a href='unlock.php' class='btn btn-lg btn-default'>Unlock the door</a></p><br />
+		<p class="lead">Welcome, Administrator. You can now run reports and promote others to run reports too.<br />
+		<a href='report.php' class='btn btn-lg btn-default'>Run reports</a></p><br />
 HTML;
 		}
 
@@ -166,7 +166,7 @@ HTML;
 		$not_rejected_btn_class = $show == 'NONREJECTED' ? 'primary':'';
 		$show_all_btn_class	= $show == 'ALL' ? 'primary':'';
 ?>
-		<p class="lead">You're an admin! You can authorize additional users once they've performed an initial log-in.</p>
+		<p class="lead">As an Admin user, you can authorize additional users once they've performed an initial log-in.</p>
 
 		<p>
 			<a class="btn btn-<?php echo $only_pending_btn_class ?>" href="?show=PENDING" role="button">PENDING ONLY</a>
